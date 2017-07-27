@@ -13,13 +13,13 @@ int main(void) {
     FILE *fp;
 
     printf("出席番号：");
-        scanf("%d", &exam.no);
+    scanf("%d", &exam.no);
     printf("氏名：");
-        scanf("%s", exam.name);
+    scanf("%s", exam.name);
     printf("英語の点数：");
-        scanf("%d", &exam.english);
+    scanf("%d", &exam.english);
     printf("数学の点数：");
-        scanf("%d", &exam.math);
+    scanf("%d", &exam.math);
     
     fp = fopen("result.txt", "w");
 
