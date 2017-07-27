@@ -38,6 +38,7 @@ int main(void) {
 
     printf("結果をファイルに書き出しました！\n");
 
+    // ファイルを閉じる
     fclose(fp);
 
     return 0;
